@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+    background-color: rgb(224, 207, 177);
+}
+.text {
+    text-align:  center;
+    color: rgb(175, 145, 93);
+    font-family: Abril Fatface;
+   }
+.main {
+    display: flex;
+}
+.task {
+    background-color: #d1ad6d;
+    padding: 30px;
+    height: 170px;
+}
+.input_title {
+    width: 300px;
+    padding: 1px 0 4px 10px;
+    display: block;
+    background: #ffffff;
+    border-radius: 3px;
+    font-size: 30px;
+    border: 1px solid #cecece;
+}
+.input_text {
+    width: 300px;
+    padding: 25px 0 25px 10px;
+    display: block;
+    background: #ffffff;
+    border-radius: 3px;
+    font-size: 30px;
+    border: 1px solid #cecece;
+}
+.button {
+    color: aliceblue;
+    background-color: rgb(175, 145, 93);
+    padding: 4px 0 4px 10px;
+    cursor: pointer;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 200px;
+}
+.list {
+    list-style-type: none;
+
+}
+.item {
+    background-color: #F6F6f6;
+    width: 300px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.title {
+    font-size: 20px;
+    font-family: Abril Fatface;
+}
+.line {
+    color: rgb(175, 145, 93);
+}
+.descr {
+    font-size: 15px;
+}
